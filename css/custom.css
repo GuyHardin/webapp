@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap');
+
+body {
+    background-color: #0088dd;
+    font-family: 'Roberto-Slab 500';
+    }
+    
+    #main {
+    width: 80%;
+    max-width: 950px;
+    border: 2px gray solid;
+    margin: auto;
+    padding: 10px;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    }
+    
+
+    label {
+    display: block;
+    font-family: 'Roberto slab 400';
+    }
+
+    input {
+    width: 30px;
+    margin-left: 20px;
+    }
+
+    h2 {
+    clear: both;
+    padding-top: 20px;
+    }
+
+button{
+    font-family: 'Roberto Slab 400';
+}
+
+p{
+    font-family: 'Roberto Slab 400';
+}
+

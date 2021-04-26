@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Movie and TV Quiz</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/custom.css">
+
+<style>
+
+    .jumbotron{
+            background-image: url(img/film.jpg);
+            background-size: cover;
+            height:550px;
+            color: black;
+            vertical-align: center;
+            font-family: 'Roberto slab 600';
+        }
+
+</style>
+
+    
+</head>
+<body>
+    <div id="main">
+    
+        <div class="jumbotron">
+            <h1 class="display-4">Movie and TV Quiz</h1>
+        </div>
+        
+        <hr class="my-4">
+
+        <h1>Test your knowledge of movies and TV with this short quiz!</h1>
+        
+    <form id="form">
+
+        <div class=container>
+            <h2>In <i>The Matrix</i>, did Neo take the <b>red</b> pill or the <b>blue</b> pill?</h2>
+                <label for="pill_red"><input type="radio" name="pill" value="1" id="pill_red" />The Red Pill</label>
+                <label for="pill_blue"><input type="radio" name="pill" value="0" id="pill_blue" />The Blue Pill</label>
+ 
+            <h2>Which movie was inocrrectly announced at the 2017 Oscar nominations?</h2>
+                <label for="oscar_moon"><input type="radio" name="oscar" value="0" id="oscar_moon"/>Moonlight</label>
+                <label for="oscar_la"><input type="radio" name="oscar" value="1" id="oscar_la"/>La La Land</label>
+                <label for="oscar_hack"><input type="radio" name="oscar" value="0" id="oscar_hack"/>Hacksaw Ridge</label>
+                <label for="oscar_hidden"><input type="radio" name="oscar" value="0" id="oscar_hidden"/>Hidden Figures</label>
+  
+            <h2>What is the name of Thor's hammer in the Avengers movies?</h2>
+                <label for="ham_gri"><input type="radio" name="ham" value="0" id="ham_gri"/>Grinder</label>
+                <label for="ham_mjo"><input type="radio" name="ham" value="1" id="ham_mjo"/>Mjolnir</label>
+                <label for="ham_ham"><input type="radio" name="ham" value="0" id="ham_ham"/>The Hammer</label>
+                <label for="ham_mee"><input type="radio" name="ham" value="0" id="ham_mee"/>Meeyolneer</label>
+       
+            <h2>Who directed Avatar, Titanic, and The Terminator?</h2>
+                <label for="driect_ste"><input type="radio" name="direct" value="0" id="direct_ste"/>Steven Spielberg</label>
+                <label for="direct_guy"><input type="radio" name="direct" value="0" id="direct_guy"/>Guy Richie</label>
+                <label for="direct_jam"><input type="radio" name="direct" value="1" id="direct_jam"/>James Cameron</label>
+                <label for="direct_mar"><input type="radio" name="direct" value="0" id="direct_mar"/>Martin Scorsese</label>
+
+            <h2>What is the main pub where the Shelby family meets in Peaky Blinders?</h2>
+                <label for="blind_garrison"><input type="radio" name="blind" value="1" id="blind_garrison" />The Garrison</label>
+                <label for="blind_fortress"><input type="radio" name="blind" value="0" id="blind_fortress" />The Fortress</label>
+                <label for="blind_marquis"><input type="radio" name="blind" value="0" id="blind_marquis" />The Marquis</label>
+                <label for="blind_lion"><input type="radio" name="blind" value="0" id="blind_lion" />The Red Lion</label>
+
+            <h2>Which Scottish actor played the 10th doctor in Doctor Who?</h2>
+                <label for="doc_tom"><input type="radio" name="doc" value="0" id="doc_tom" />Tom Baker</label>
+                <label for="doc_peter"><input type="radio" name="doc" value="0" id="doc_peter" />Peter Capaldi</label>
+                <label for="doc_chirs"><input type="radio" name="doc" value="0" id="doc_chris" />Christopher Eccleston</label>
+                <label for="doc_tennent"><input type="radio" name="doc" value="1" id="doc_tennent" />David Tennent</label>
+
+            <h2>What is the name of the 'Dragon Queen' in Game of Thrones?</h2>
+                <label for="got_cersei"><input type="radio" name="got" value="0" id="got_cersei" />Cersei Lannister</label>
+                <label for="got_sansa"><input type="radio" name="got" value="0" id="got_sansa" />Sansa Stark</label>
+                <label for="got_danny"><input type="radio" name="got" value="1" id="got_danny" />Daenerys Targaryen</label>
+                <label for="got_arya"><input type="radio" name="got" value="0" id="got_arya" />Arya Stark</label>
+ 
+            <h2>Who is Harry Potter's Godfather?</h2>
+                <label for="hp_snape"><input type="radio" name="hp" value="0" id="hp_snape" />Severus Snape</label>
+                <label for="hp_albus"><input type="radio" name="hp" value="0" id="hp_albus" />Albus Dumbledore</label>
+                <label for="hp_cedric"><input type="radio" name="hp" value="0" id="hp_cedric" />Cedric Diggory</label>
+                <label for="hp_sirius"><input type="radio" name="hp" value="1" id="hp_serius" />Serius Black</label>
+  
+            <h2>Which actor played James Bond in Diamonds Are Forever?</h2>
+                <label for="jb_cra"><input type="radio" name="jb" value="0" id="jb_cra" />Daniel Craig</label>
+                <label for="jb_bro"><input type="radio" name="jb" value="0" id="jb_bro" />Pierce Brosnan</label>
+                <label for="jb_con"><input type="radio" name="jb" value="1" id="jb_con" />Sean Connery</label>
+                <label for="jb_moo"><input type="radio" name="jb" value="0" id="jb_moo" />Roger Moore</label>
+
+            <h2>What was the first feature-length animated Disney movie?</h2>
+                <label for="dis_sno"><input type="radio" name="dis" value="1" id="dis_sno" />Snow White and the Seven Dwarves</label>
+                <label for="dis_dum"><input type="radio" name="dis" value="0" id="dis_dum" />Dumbo</label>
+                <label for="dis_fan"><input type="radio" name="dis" value="0" id="dis_fan" />Fantasia</label>
+                <label for="dis_bam"><input type="radio" name="dis" value="0" id="dis_bam" />Bambi</label>
+        </div>
+
+        <br>
+        <br>
+            <button type="submit" value="Submit">Submit</button>
+    </form>
+
+    <br>
+    
+<p>Your grade is: <span id="grade">__</span></p>
+<p id="grade2"></p>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+<script>
+    document.getElementById("form").onsubmit=function() {
+        pill = parseInt(document.querySelector('input[name = "pill"]:checked').value);
+        oscar = parseInt(document.querySelector('input[name = "oscar"]:checked').value);
+        ham = parseInt(document.querySelector('input[name = "ham"]:checked').value);
+        direct = parseInt(document.querySelector('input[name = "direct"]:checked').value);
+        blind = parseInt(document.querySelector('input[name = "blind"]:checked').value);
+        doc = parseInt(document.querySelector('input[name = "doc"]:checked').value);
+        got = parseInt(document.querySelector('input[name = "got"]:checked').value);
+        hp = parseInt(document.querySelector('input[name = "hp"]:checked').value);
+        jb = parseInt(document.querySelector('input[name = "jb"]:checked').value);
+        dis = parseInt(document.querySelector('input[name = "dis"]:checked').value);
+        
+        result = pill + oscar + ham + direct + blind + doc + got + hp + jb + dis;
+        
+        document.getElementById("grade").innerHTML = result;
+
+    grading = [
+        {score:0,feedback:"What? Do you live under a rock?"},
+        {score:1,feedback:"Hey, you got one. Maybe watch some more and come back."},
+        {score:2,feedback:"Seriously, go see a movie."},
+        {score:3,feedback:"Do you even own a TV?"},
+        {score:4,feedback:"That's okay, try again!"},
+        {score:5,feedback:"You're halfway there!"},
+        {score:6,feedback:"Not Bad!"},
+        {score:7,feedback:"Good Job!"},
+        {score:8,feedback:"Nice!"},
+        {score:9,feedback:"Great work!"},
+        {score:10,feedback:"Amazing! You're a bona fide cinefile!"}
+        ];
+        
+    for(i=0; i<grading.length; i++) {
+        if(result == grading[i].score) {
+        result2 = grading[i].feedback;
+        }
+        }
+
+
+    document.getElementById("grade2").innerHTML = result2; 
+
+    return false; // not refresh page
+    } //ends submit function
+
+</script>
+
+    
+
+</body>
+</html>
